@@ -1,0 +1,148 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding-top: 180px; /* menyesuaikan tinggi topbar agar konten tidak tertutup */
+    background-color: #f2f8ff;
+    color: #333;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #003366;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header dalam topbar */
+.topbar header {
+    text-align: center;
+    padding: 1.5rem 1rem 0.5rem;
+}
+
+/* Nav dalam topbar */
+.topbar nav {
+    background-color: #0059b3;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.topbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.topbar nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.topbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topbar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    scroll-margin-top: 200px;
+    text-align: justify;
+}
+
+h2 {
+    color: #003366;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card h3 {
+    color: #003366;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.card p {
+    margin: 0.5rem 0;
+    color: #555;
+    font-size: 0.8rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 0rem;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-download {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: #0059b3;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+    background-color: #003f7f;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: left;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #aad4ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer h2 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+footer #kontak p {
+    margin: 0.3rem 0;
+}
